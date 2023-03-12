@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #E9ECEF;
+}
+
+nav{
+    background-color: #2E4053;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .baslik {
+    color: blue;
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: normal;
+    color: #ff0000;
+}
+
+nav .nav a{
+    margin-left: 20px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+main{
+    text-align: center;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+
+.bt{
+    float: left;
+    background-color: #808080;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+ }
+ .card-title{
+     text-align: left;
+     font-size: 17px;
+ }
+ .text h1{
+     text-align: center;
+     color: purple;
+     font-style: normal;
+ }
+
+.container {
+    padding-top: 1cm;
+}
+
+h3 {
+    color: orange;
+}
+
+h5 {
+    color: purple;
+}
+
+.card {
+    max-width:300px;
+    margin:15px;
+    background:#fff;
+    border:1px solid #CB6074;
+    text-align:center;
+    cursor:pointer;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+}
+
+.card-wrapper {
+    padding:15px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
